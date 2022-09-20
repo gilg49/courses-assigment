@@ -16,7 +16,7 @@ get_header(); ?>
                 $args = array(
                     'post_type' => 'courses',
                     'posts_per_page' => 10,
-                    'paged' => get_query_var('paged') ? get_query_var('paged') : 1
+                    'paged' => isset($_GET['paged']) ? $_GET['paged'] : 1
                 );
             
                 if(isset($_GET['course-tag'])) :

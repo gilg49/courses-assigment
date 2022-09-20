@@ -10,7 +10,7 @@
 </div>
 <div class="row course-data-row">
     <div class="course-trailer col-lg-6 col-md-4 col-sm-12">
-        <span class="course-title"><?=__('Trailer','')?> : </span><span class="course-title-value"><?=get_field('course-trailer',get_the_ID());?></span>
+        <span class="course-title"><?=__('Trailer','')?> : </span><span class="course-title-value"><?=get_field('course_trailer',get_the_ID());?></span>
     </div>
     <div class="course-date col-lg-3 col-md-4 col-sm-12">
         <span class="course-title"><?=__('Start date','')?> : </span><span class="course-title-value"><?=get_field('course_start',get_the_ID());?></span>
