@@ -1,0 +1,116 @@
+
+.post-wrap{
+    max-height:440px;
+    margin-block-end:30px;
+}
+.post-link{
+    display:inline-block;
+    text-decoration: none !important;
+}
+.post-title{
+    color:#9b51e0;
+    font-size:25px;
+    font-weight:bold;
+}
+.post-image-wrap{
+    min-height:190px;
+}
+.tags-title{
+    color:#000000;
+    font-weight:bold;
+    font-size:12px;
+}
+.tag-name{
+    font-size:12px;
+    padding:1px 6px;
+    border:1px solid #ccc;
+    border-radius:30px;
+}
+.paganation-wrap{
+    clear:both;
+    text-align:center;
+    font-size:22px;
+}
+.page-numbers{
+    padding:0 5%;
+    text-decoration: none !important;
+}
+.page-numbers.current{
+    font-weight:bold;
+    color: red;
+}
+
+.tag-wrap{
+    width:100%;
+    font-weight:bold;
+}
+.tag-count{
+    display: inline-block;
+    float: right;
+}
+
+/*******************Start single course*****************/
+.single-course-title{
+    text-align:center;
+}
+.single-course-image-wrap{
+    text-align:center;
+}
+.course-title{
+    font-weight:bold;
+}
+.course-data-row{
+    margin-block-start:50px;
+    font-size:22px;
+    text-align:center;
+}
+.course-trailer{
+    text-align:left;
+}
+.course-content-wrap{
+    width:80%;
+    margin:0 auto;
+}
+.course-desc{
+    margin-block-start:20px;
+}
+.course-content-wrap .course-title{
+    font-size:22px;
+}
+/*******************End single course*****************/
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl{
+        max-width: 1400px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1200px){
+    .container, .container-md, .container-sm{
+        max-width:800px;
+    }
+    .post-image-wrap {
+        min-height: 100px;
+    }
+}
+@media (max-width:768px){
+    .post-link{
+        width:100%;
+    }
+    .post-link img{
+        width:100%;
+    }
+
+    .course-data-row div{
+        margin-bottom:15px;
+    }
+    .course-trailer{
+        text-align:center;
+    }
+}
