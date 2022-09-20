@@ -25,7 +25,7 @@
             </div>
         <?php endforeach ?>
 
-        <button type="submit">Apply</button>
+        <button class="btn btn-primary" type="submit">Apply</button>
         </fieldset>
         
     </form>
