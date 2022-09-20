@@ -21,7 +21,7 @@
     font-weight:bold;
 }
 .post-image-wrap{
-    min-height:190px;
+    min-height:155px;
 }
 .tags-title{
     color:#000000;
@@ -100,12 +100,6 @@
 /*******************End single course*****************/
 
 
-
-
-
-
-
-
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl{
         max-width: 1400px;
@@ -115,8 +109,11 @@
     .container, .container-md, .container-sm{
         max-width:800px;
     }
+    .post-title{
+        font-size:20px;
+    }
     .post-image-wrap {
-        min-height: 100px;
+        min-height: 85px;
     }
 }
 @media (max-width:768px){
