@@ -1,4 +1,12 @@
 
+.main_title{
+    text-align:center;
+}
+.main_title h1{
+    font-size:35px;
+    font-weight:bold;
+    margin-block-end:35px;
+}
 .post-wrap{
     max-height:440px;
     margin-block-end:30px;
@@ -40,6 +48,9 @@
     color: red;
 }
 
+#form-wrap{
+    margin-block-start:40px;
+}
 .tag-wrap{
     width:100%;
     font-weight:bold;
@@ -106,9 +117,13 @@
     .post-link img{
         width:100%;
     }
+    #form-wrap{
+        margin-block-end:30px;
+        margin-block-start:0px;
+    }
 
     .course-data-row div{
-        margin-bottom:15px;
+        margin-block-end:15px;
     }
     .course-trailer{
         text-align:center;

@@ -97,4 +97,7 @@
 	<div id="content" class="site-content">
 		<div class="container">
 			<div class="row">
+            <?php if(is_front_page() || is_archive()):?> 
+                <div class="main_title col-sm-12"><h1>Our Courses</h1></div>
+            <?php endif ?>
                 <?php endif; ?>
